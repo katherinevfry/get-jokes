@@ -31,3 +31,32 @@ body {
   color: white;
   background: black;
 }
+
+img {
+  width: 30rem;
+}
+
+@media only screen and (max-width: 769px) {
+  #content-container {
+    width: 20rem;
+    height: 40vh;
+    margin: auto;
+    background: #474747;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  #button-container {
+    background-color:#474747;
+    width: 20rem;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+}

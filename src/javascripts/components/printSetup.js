@@ -1,7 +1,6 @@
 import { showSetup } from './getJoke';
 
 const printSetup = () => {
-  document.querySelector('#header').innerHTML = '<img src="..." alt="...">';
   document.querySelector('#content-container').innerHTML = `
     <h1 id="setup-joke">${showSetup()}</h1>`;
   document.querySelector('#button-container').innerHTML = '';
