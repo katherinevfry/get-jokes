@@ -1,9 +1,33 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-color:black;
+  color: white;
   text-align: center;
-  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#content-container {
+  width: 30rem;
+  height: 40vh;
+  margin: auto;
+  background: #474747;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#button-container {
+  background-color:#474747;
+  width: 30rem;
+  margin: auto;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 30px;
+}
+
+.btn {
+  color: white;
+  background: black;
 }
